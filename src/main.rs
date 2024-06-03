@@ -13,6 +13,26 @@ use std::collections::HashMap;
 use std::fs;
 use std::io::Write;
 
+#[derive(Deserialize, Serialize, Debug, Clone)]
+struct Task {
+    id: u64,
+    name: String,
+    completed: bool
+}
+
+#[derive(Deserialize, Serialize, Debug, Clone)]
+struct User {
+    id: u64,
+    username: String,
+    password: String
+}
+
+#[derive(Deserialize, Serialize, Debug, Clone)]
+struct Database {
+    tasks: HashMap<u64, Task>,
+    users: HashMap<u64, User>
+}
+
 fn main() {
     println!("Hello, world!");
 }

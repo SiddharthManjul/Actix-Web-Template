@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "1": { "id": 1, "name": "First task", "completed": false },
+    "2": { "id": 2, "name": "Second task", "completed": false }
+  },
+  "users": {}
+}

@@ -1,1 +1,4 @@
-{"tasks":{"1":{"id":1,"name":"First task","completed":false}},"users":{}}
+{
+  "tasks": { "1": { "id": 1, "name": "First task", "completed": false } },
+  "users": { "1": { "id": 1, "username": "Brooklyn", "password": "12345678" } }
+}
